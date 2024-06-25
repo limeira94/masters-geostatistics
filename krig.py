@@ -54,10 +54,10 @@ weights = np.linalg.solve(gamma, gamma_x)
 Z_x = np.sum(weights[:-1] * values)
 
 # Mostrar os resultados
-print("Matriz de Variância (gamma):")
+print("Variance Matrix (gamma):")
 print(gamma)
 
-print("\nVetor de Variância (gamma_x):")
+print("\nVariance Vector (gamma_x):")
 print(gamma_x)
 
-print(f"\nEstimativa no ponto X: {Z_x}")
+print(f"\nPoint estimation X: {Z_x}")
